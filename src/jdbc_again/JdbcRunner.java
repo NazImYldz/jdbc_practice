@@ -34,7 +34,6 @@ public class JdbcRunner extends JdbcMethods{
                     System.out.println("Please Enter Correct Choice!!!");
             }
         }while (choice!=5);
-
             System.out.println("Thanks for choosing us, see you!!!");
 
     }

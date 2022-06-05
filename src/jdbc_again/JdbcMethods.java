@@ -50,7 +50,6 @@ public class JdbcMethods {
         Connection con = connection();
 
         String sql = "insert into student(name,email,city,phone) values (?,?,?,?);";
-
         PreparedStatement stmt = con.prepareStatement(sql);
         stmt.setString(1,name);
         stmt.setString(2,email);
